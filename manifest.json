@@ -1,0 +1,11 @@
+{
+    "name": "Acres Adblocker",
+    "version": "1.0",
+    "description": "Block all unwanted ads on your browser",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "manifest_version": 2
+}
